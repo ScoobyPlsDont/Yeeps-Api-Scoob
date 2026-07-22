@@ -1,6 +1,7 @@
 $body = @{
-    oculusID   = "USERNAME" 
-    mobileCode = "0000"} 
+        oculusID   = "USERNAME" 
+        mobileCode = "0000"
+    } 
     | ConvertTo-Json -Compress
 
 try {

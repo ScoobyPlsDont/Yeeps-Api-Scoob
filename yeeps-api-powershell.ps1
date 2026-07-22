@@ -1,4 +1,7 @@
-$body = @{oculusID   = "USERNAME" mobileCode = "0000"} | ConvertTo-Json -Compress
+$body = @{
+    oculusID   = "USERNAME" 
+    mobileCode = "0000"} 
+    | ConvertTo-Json -Compress
 
 try {
     $response = Invoke-RestMethod `

@@ -11,6 +11,6 @@ async function apiCall(oculusID, mobileCode) {
         return await response.json();
     }
     catch (e) {
-        return { error: e.message };
+        return {error: e.message};
     }
 }

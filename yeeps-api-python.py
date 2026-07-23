@@ -1,5 +1,4 @@
 import response
-import json
 
 def api_call(oculusID, mobileCode):
     url = "https://yeeps-proxy.onrender.com/yeeps"

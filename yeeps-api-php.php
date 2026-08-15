@@ -9,9 +9,7 @@ function apiCall($oculusID, $mobileCode)
         CURLOPT_RETURNTRANSFER => true,
         CURLOPT_POST => true,
         CURLOPT_POSTFIELDS => json_encode($body),
-        CURLOPT_HTTPHEADER => [
-            "Content-Type: application/json"
-        ],
+        CURLOPT_HTTPHEADER => ["Content-Type: application/json"],
         CURLOPT_TIMEOUT => 120,
     ]);
   

@@ -22,10 +22,7 @@ public class Api
         }
         catch (Exception e)
         {
-            return JsonSerializer.SerializeToElement(new
-            {
-                error = e.Message
-            });
+            return JsonSerializer.SerializeToElement(new{error = e.Message});
         }
     }
 }
